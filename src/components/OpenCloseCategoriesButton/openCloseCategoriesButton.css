@@ -1,0 +1,22 @@
+.open-close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 1rem;
+  line-height: 1;
+  border: none;
+  background-color: transparent;
+  color: #0271e1;
+}
+
+.chevron-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.up {
+  transform: rotate(180deg);
+}

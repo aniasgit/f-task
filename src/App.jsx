@@ -1,11 +1,19 @@
-import { Tile } from "./components";
-import { tiles } from "./data";
+import { useState } from "react";
+import { TilesContainer, OpenCloseCategoriesButton } from "./components";
 import "./App.css";
 
 function App() {
-  return tiles.map((tile, index) => (
-    <Tile key={index} src={tile.src} title={tile.title} />
-  ));
+  const [isContainerOpen, setIsContainerOpen] = useState(false);
+
+  return (
+    <>
+      <TilesContainer open={isContainerOpen} />
+      <OpenCloseCategoriesButton
+        onClick={() => setIsContainerOpen(!isContainerOpen)}
+        open={isContainerOpen}
+      />
+    </>
+  );
 }
 
 export default App;
