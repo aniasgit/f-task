@@ -2,11 +2,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  margin-bottom: 8px;
+  color: #18304b;
+
+  @media (min-width: 961px) {
+    font-size: 32px;
+  }
+}
+
+p {
+  margin-bottom: 16px;
+  font-size: 18px;
+  color: #6c7881;
+
+  @media (min-width: 961px) {
+    font-size: 20px;
+  }
 }
 
 .categories-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 0 20px;
+  margin: 64px 0 15px 0;
+  width: 100%;
+  max-width: 1200px;
 }

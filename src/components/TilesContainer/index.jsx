@@ -8,7 +8,12 @@ export const TilesContainer = ({ open }) => {
   return (
     <div className={open ? "tiles-container open" : "tiles-container"}>
       {tiles.map((tile, index) => (
-        <Tile key={index} src={tile.src} title={tile.title} />
+        <Tile
+          key={index}
+          src={tile.src}
+          title={tile.title}
+          href="https://www.finder.com.au/"
+        />
       ))}
     </div>
   );
