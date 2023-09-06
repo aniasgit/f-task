@@ -1,12 +1,12 @@
 import { Tile } from "../Tile";
 import { tiles } from "../../data";
-import "./tilesContainer.css";
+import "./categoriesContainer.css";
 import PropTypes from "prop-types";
 
-export const TilesContainer = ({ open }) => {
-  // const open = false;
+export const CategoriesContainer = ({ open }) => {
   return (
-    <div className={open ? "tiles-container open" : "tiles-container"}>
+    <div
+      className={open ? "categories-container open" : "categories-container"}>
       {tiles.map((tile, index) => (
         <Tile
           key={index}
@@ -19,6 +19,6 @@ export const TilesContainer = ({ open }) => {
   );
 };
 
-TilesContainer.propTypes = {
+CategoriesContainer.propTypes = {
   open: PropTypes.bool.isRequired,
 };

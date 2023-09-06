@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { TilesContainer, OpenCloseCategoriesButton } from "./components";
+import { CategoriesContainer, OpenCloseCategoriesButton } from "./components";
 import "./App.css";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
             "Finder's team of 40+ experts will help you find the right choices in over 100 categories."
           }
         </p>
-        <TilesContainer open={isContainerOpen} />
+        <CategoriesContainer open={isContainerOpen} />
         <OpenCloseCategoriesButton
           onClick={() => setIsContainerOpen(!isContainerOpen)}
           open={isContainerOpen}

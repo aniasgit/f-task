@@ -1,3 +1,3 @@
 export * from "./Tile";
-export * from "./TilesContainer";
+export * from "./CategoriesContainer";
 export * from "./OpenCloseCategoriesButton";

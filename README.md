@@ -1,8 +1,13 @@
-# React + Vite
+# Take home test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a recruitment task, the purpose of which was to recreate the section from the website https://www.finder.com.au/.
 
-Currently, two official plugins are available:
+## Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Run `npm install` to install all dependencies needed for this project. They are listed in `package.json` file.
+
+`npm run dev` - to run the app.
+
+## Demo
+
+[https://amazing-lamington-5723e1.netlify.app/](https://amazing-lamington-5723e1.netlify.app/)
